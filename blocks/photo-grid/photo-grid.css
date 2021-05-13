@@ -1,9 +1,13 @@
 @import url(./__item/photo-grid__item.css);
 .photo-grid{
   max-width: 1184px;
-  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto 92px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 16px 16px;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  gap: 16px 16px;
 
 }
+
+/* padding has to be modified for smaller screens */
