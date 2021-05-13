@@ -1,0 +1,11 @@
+@import url(./__title/intro__title.css);
+@import url(./__text/intro__text_subtitle.css);
+@import url(./__text/intro__text_description.css);
+@import url(./__list/intro__list.css);
+@import url(./__list/intro__list_bold.css);
+.intro{
+  color: #fff;
+  max-width: 984px;
+  margin: 92px auto;
+}
+
