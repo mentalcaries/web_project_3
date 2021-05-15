@@ -11,6 +11,6 @@
   padding-right: 18px;
 }
 
-.header__lang-link:active{
+.header__lang-link:lang(en){
   text-decoration: underline;
 }
