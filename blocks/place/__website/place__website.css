@@ -1,7 +1,6 @@
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__link/place__link.css);
-
-.place__website{
+.place__website {
   grid-column: 2;
   grid-row: 1;
   align-self: end;
@@ -12,8 +11,6 @@
   .place__website {
     grid-column: 1;
     grid-row: 2;
-    padding: 30px 16px
-
-
+    padding: 30px 16px;
   }
 }

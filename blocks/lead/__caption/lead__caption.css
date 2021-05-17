@@ -8,7 +8,7 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #FFFFFF;
-  align-items: flex-end
+  align-items: flex-end;
 }
 
 @media screen and (max-width: 768px) {
