@@ -1,7 +1,6 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__lang-link/header__lang-link.css);
-
 .header {
   max-width: 984px;
   margin: 0 auto;
@@ -9,20 +8,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-
 }
 
 @media screen and (max-width: 768px) {
-  .header{
+  .header {
     max-width: 720px;
   }
+}
 
+@media screen and (max-width: 425px) {
+  .header {
+    max-width: 382px;
+    padding: 34px 16px 0px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-  .header{
+  .header {
     max-width: 288px;
   }
-
 }

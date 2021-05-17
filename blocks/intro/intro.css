@@ -3,7 +3,7 @@
 @import url(./__text/intro__text_description.css);
 @import url(./__list/intro__list.css);
 @import url(./__list/intro__list_bold.css);
-.intro{
+.intro {
   color: #fff;
   max-width: 984px;
   margin: 92px auto;
@@ -11,27 +11,23 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .intro{
+  .intro {
     max-width: 928px;
   }
-
 }
 
-
 @media screen and (max-width: 768px) {
-  .intro{
+  .intro {
     max-width: 720px;
     margin: 88px auto;
     padding: 0 24px
   }
-
 }
+
 @media screen and (max-width: 320px) {
-  .intro{
+  .intro {
     max-width: 288px;
     margin: 64px auto;
     padding: 0 16px
   }
-
 }
-

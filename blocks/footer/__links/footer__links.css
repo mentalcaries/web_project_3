@@ -4,13 +4,13 @@
   width: 211px;
   justify-content: space-between;
   margin: 0;
-  padding:0px
+  padding: 0px
 }
-@media screen and (max-width: 320px) {
-  .footer__links{
+
+@media screen and (max-width: 500px) {
+  .footer__links {
     flex-direction: column;
     height: 136px;
     padding-bottom: 48px;
   }
-
 }

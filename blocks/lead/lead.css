@@ -2,7 +2,6 @@
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
-
 .lead {
   display: flex;
   flex-direction: column;
@@ -12,17 +11,15 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .lead{
+  .lead {
     max-width: 928px;
     padding-top: 50px;
   }
-
 }
+
 @media screen and (max-width: 768px) {
-  .lead{
+  .lead {
     max-width: 928px;
     padding: 50px 0px 0px;
   }
-
 }
-
