@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
   gap: 16px 16px;
+  padding: 0 48px;
 
 }
 
@@ -15,5 +16,21 @@
   }
 
 }
+@media screen and (max-width: 768px) {
+  .photo-grid{
+    max-width: 720px;
+    gap: 16px;
+    margin: 0 auto 88px;
+    padding: 0 24px;
+  }
 
-/* padding has to be modified for smaller screens */
+}
+@media screen and (max-width: 320px) {
+  .photo-grid{
+    max-width: 288px;
+    gap: 12px;
+    margin: 0 auto 64px;
+    padding: 0 16px;
+  }
+
+}
