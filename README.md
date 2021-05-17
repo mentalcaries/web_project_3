@@ -7,14 +7,18 @@
 
 **Intro**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is a project about traveling across the US as part of Sprint 3 in the Practicum Web Dev course. This one was definitely more complex as it introduced the concept of responsive web design.
+
+Adding to the challenge was the use of grids and combining this with previous principles of Flexbox and absolute positioning. Animations in this project were more subtle, with just a few hover transitions. along with some tinkering on my part for the photo-grid section.
 
 **Figma**
+
+This was also my first project using a brief designed in Figma. This was definitely a step up from the previous PDF briefs and allowed for better definition of dimensions, fonts and spacing.
 
 * [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+This project consisted of a large number of images. For optimal loading times, they were compressed using [TinyPNG](https://tinypng.com/).
 
-Good luck and have fun!
+This project is one worth expanding on. The photo-grid section is very neat as is, but varying sizes of images should make it more interesting.

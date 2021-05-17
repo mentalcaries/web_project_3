@@ -3,11 +3,12 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 1.05;
-  grid-column: 1 / 2;
+  line-height: 1.06;
+  grid-column: 1;
   grid-row: 1;
   margin: 0;
   padding-bottom: 48px;
+  max-width: 460px;
 }
 
 @media screen and (max-width: 768px) {

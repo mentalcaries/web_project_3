@@ -3,14 +3,14 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 26px;
   margin: 0 0 33px;
 }
 
 @media screen and (max-width: 768px) {
   .intro__text_description {
     font-size: 16px;
-    line-height: 1.31;
+    line-height: 26px;
     margin-bottom: 34px;
   }
 }
