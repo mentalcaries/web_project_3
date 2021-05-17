@@ -5,14 +5,14 @@
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 1.67;
   letter-spacing: 0.2em;
 }
 
 @media screen and (max-width: 1024px) {
   .place__url-heading {
     line-height: 12px;
-    
+
   }
 }
 

@@ -7,6 +7,7 @@
   color: #fff;
   max-width: 984px;
   margin: 92px auto;
+  padding: 0px 48px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,6 +22,7 @@
   .intro{
     max-width: 720px;
     margin: 88px auto;
+    padding: 0 24px
   }
 
 }
@@ -28,6 +30,7 @@
   .intro{
     max-width: 288px;
     margin: 64px auto;
+    padding: 0 16px
   }
 
 }

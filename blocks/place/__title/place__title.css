@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 1.05;
   grid-column: 1 / 2;
   grid-row: 1;
   margin: 0;
@@ -13,7 +13,7 @@
 @media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
-    line-height: 46px;
+    line-height: 1.1;
   }
 }
 @media screen and (max-width: 320px) {
@@ -21,7 +21,7 @@
     grid-column: 1;
     grid-row: 1;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.1;
     max-width: 288px;
     padding: 0 16px;
 

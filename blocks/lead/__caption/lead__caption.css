@@ -4,24 +4,22 @@
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
-  line-height: 14px;
+  line-height: 1.4;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #FFFFFF;
   align-items: flex-end
- }
+}
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .lead__caption {
     padding-left: 24px;
-
   }
 }
- @media screen and (max-width: 320px) {
+
+@media screen and (max-width: 320px) {
   .lead__caption {
     max-width: 288px;
-    font-size: 10px;
-    line-height: 14px;
     padding-left: 16px;
   }
 }
