@@ -1,5 +1,15 @@
 .header__lang-links {
+  width: 75px;
   display: flex;
+  justify-content: space-between;
   margin: 0;
   list-style: none;
+  padding:0;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-links{
+    width: 61px;
+  }
+
 }
