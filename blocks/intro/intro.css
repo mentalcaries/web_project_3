@@ -5,9 +5,9 @@
 @import url(./__accent/intro__accent.css);
 .intro {
   color: #fff;
-  max-width: 690px;
-  /* margin: 92px auto; */
-  padding: 92px 148px;
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 92px 48px;
 }
 
 @media screen and (max-width: 1024px) {
