@@ -1,5 +1,7 @@
 # Project 3: From Portland to Portland
 
+Project can be viewed here: https://mentalcaries.github.io/web_project_3/
+
 ### Overview
 * Intro
 * Figma

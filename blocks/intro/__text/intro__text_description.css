@@ -1,5 +1,5 @@
 .intro__text_description {
-  max-width: 690px;
+  /* max-width: 690px; */
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 768px) {
   .intro__text_description {
+    max-width: 720px;
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 34px;

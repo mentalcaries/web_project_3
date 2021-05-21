@@ -2,8 +2,7 @@
 @import url(./__image/place__image.css);
 @import url(./__website/place__website.css);
 @import url(./__paragraph/place__paragraph.css);
-
-.place{
+.place {
   max-width: 984px;
   display: grid;
   grid-template-columns: calc(0.95fr - 40px) calc(1fr - 40px);
@@ -11,32 +10,31 @@
   column-gap: 40px;
   padding-bottom: 80px;
 }
-.place:last-child{
+
+.place:last-child {
   padding-bottom: 0;
 }
 
-
 @media screen and (max-width: 1024px) {
-  .place{
+  .place {
     grid-template-columns: 0.965fr 1fr;
     gap: 32px;
   }
 }
-@media screen and (max-width: 768px) {
-  .place{
 
+@media screen and (max-width: 768px) {
+  .place {
     gap: 28px;
   }
 }
 
 @media screen and (max-width: 625px) {
-  .place{
+  .place {
     /* display: flex;
     flex-direction: column; */
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4 auto);
     padding-bottom: 48px;
     gap: 0px;
-
   }
 }
