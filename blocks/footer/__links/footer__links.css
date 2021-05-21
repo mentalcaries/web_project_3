@@ -1,8 +1,6 @@
 .footer__links {
   list-style: none;
-  display: flex;
-  width: 211px;
-  justify-content: space-between;
+  display: flex;;
   margin: 0;
   padding: 0px;
 }
@@ -10,7 +8,7 @@
 @media screen and (max-width: 500px) {
   .footer__links {
     flex-direction: column;
-    height: 136px;
     padding-bottom: 48px;
   }
 }
+

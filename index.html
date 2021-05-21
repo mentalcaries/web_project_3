@@ -30,10 +30,10 @@
         <p class="lead__caption">Your journey starts here</p>
       </section>
       <section class="intro">
-        <h3 class="intro__title">Know the country you live in a little better</h3>
-        <p class="intro__text intro__text_subtitle">That's exactly what we have arranged for you via this travel story
+        <h2 class="intro__title">Know the country you live in a little better</h2>
+        <p class="intro__subtitle">That's exactly what we have arranged for you via this travel story
         </p>
-        <p class="intro__text intro__text_description">Need more action and adventure in your life instead of the same
+        <p class="intro__description">Need more action and adventure in your life instead of the same
           old
           routine?
           From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown
@@ -43,10 +43,10 @@
           polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your
           favorite book.</p>
         <ul class="intro__list">
-          <li><span class="intro__list intro__list_bold">Distance (miles) </span>3,644</li>
-          <li><span class="intro__list intro__list_bold">Travel time (days) </span>22</li>
-          <li><span class="intro__list intro__list_bold">Highest point (feet) </span>9,613</li>
-          <li><span class="intro__list intro__list_bold">Lowest point (feet) </span>-3</li>
+          <li><span class="intro__accent">Distance (miles) </span>3,644</li>
+          <li><span class="intro__accent">Travel time (days) </span>22</li>
+          <li><span class="intro__accent">Highest point (feet) </span>9,613</li>
+          <li><span class="intro__accent">Lowest point (feet) </span>-3</li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -68,7 +68,7 @@
       </section>
 
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Maine</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -77,7 +77,7 @@
               target="_blank">global.llbean.com</a>
           </div>
           <img class="place__image" src="./images/__image-4.jpg" alt="Oceanside view">
-          <article>
+          <div>
             <p class="place__paragraph">Still, as sparsely populated as it was in the 1600s, this is an extraordinary
               and
               highly underrated state
@@ -91,9 +91,9 @@
             </p>
             <p class="place__paragraph">Average cost: $80-100.
             </p>
-          </article>
-        </div>
-        <div class="place">
+          </div>
+        </article>
+        <article class="place">
           <h2 class="place__title">New Hampshire</h2>
           <img class="place__image" src="./images/__image-3.jpg" alt="Mountain view with river">
           <div class="place__website">
@@ -101,7 +101,7 @@
             <a class="place__link" href="https://www.timberland.com/timberlandpro.html"
               target="_blank">timberland.com</a>
           </div>
-          <article>
+          <div>
             <p class="place__paragraph">There's no better place to lose yourself in nature than in springtime New
               Hampshire. As serene and
               beautiful as it was in the 1700s, this state is still much less traveled than its neighbors to the South.
@@ -118,9 +118,9 @@
             </p>
             <p class="place__paragraph">Average cost: $100-150.
             </p>
-          </article>
-        </div>
-        <div class="place">
+          </div>
+        </article>
+        <article class="place">
           <h2 class="place__title">New York</h2>
           <img class="place__image" src="./images/__image-2.jpg"
             alt="New York City Street with tall buildings on either side">
@@ -128,7 +128,7 @@
             <p class="place__url-heading">URL</p>
             <a class="place__link" href="https://www.ge.com/about-us" target="_blank">ge.com</a>
           </div>
-          <article>
+          <div>
             <p class="place__paragraph">Not only famous for “The Big Apple,” the state of NY also has several other
               reasons for going down in
               history. Since the late 1800s Schenectady, “The City that Lights and Hauls the World,” has been home to
@@ -141,16 +141,16 @@
               see
               through those dark lonely roads on your adventure. Such a light from GE will set you back about $10-20.
             </p>
-          </article>
-        </div>
-        <div class="place">
+          </div>
+        </article>
+        <article class="place">
           <h2 class="place__title">Erie, PA</h2>
           <img class="place__image" src="./images/__image-1.jpg" alt="Waterfall through opening in trees.">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="place__link" href="https://www.fws.gov/refuge/erie" target="_blank">fws.gov</a>
           </div>
-          <article>
+          <div>
             <p class="place__paragraph">Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be
               from time to time, is
               another town worth passing through for several different reasons. While it might be most famously known as
@@ -165,16 +165,16 @@
               Wildlife Refuge on your way to Erie and have an extra eerie time!
             </p>
             <p class="place__paragraph">The current cost of a Hershey's Chocolate bar: about 60¢.</p>
-          </article>
-        </div>
-        <div class="place">
+          </div>
+        </article>
+        <article class="place">
           <h2 class="place__title">Ohio</h2>
           <img class="place__image" src="./images/__image.jpg" alt="Lone windmill in a field">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="place__link" href="https://www.cedarpoint.com" target="_blank">cedarpoint.com</a>
           </div>
-          <article>
+          <div>
             <p class="place__paragraph">From the college capital of Columbus to the clean coastline of Cleveland, Ohio
               is
               a truly hidden gem.
@@ -186,8 +186,8 @@
               can before continue your bike ride!
             </p>
             <p class="place__paragraph">The cost of a daily ticket: about $100.</p>
-          </article>
-        </div>
+          </div>
+        </article>
       </section>
 
       <section class="cover">
@@ -201,12 +201,14 @@
 
     <footer class="footer">
       <div class="footer__content">
-        <ul class="footer__links">
+        <nav>
+          <ul class="footer__links">
           <li><a class="footer__link" href="https://yandex.com/maps" target="_blank">Maps </a></li>
           <li><a class="footer__link" href="https://yandex.com/weather/moscow" target="_blank">Weather</a></li>
           <li><a class="footer__link" href="http://calendar.yandex.ru" target="_blank">Calendar</a></li>
         </ul>
-        <small class="footer__copyright">&copy; 2021. Devin Jaggernauth</small>
+      </nav>
+        <p class="footer__copyright">&copy; 2021. Devin Jaggernauth</p>
       </div>
     </footer>
   </div>
