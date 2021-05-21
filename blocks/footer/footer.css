@@ -8,6 +8,8 @@
   max-width: 1184px;
   margin: 0 auto;
   padding: 92px 48px 24px;
+  display: flex;
+  justify-content: space-between;
 
 }
 
@@ -20,12 +22,13 @@
 @media screen and (max-width: 768px) {
   .footer {
     max-width: 720px;
-    padding-top: 88px;
+    padding: 88px 24px 24px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .footer {
+    flex-direction: column;
     max-width: 288px;
     padding: 64px 16px 24px;
   }

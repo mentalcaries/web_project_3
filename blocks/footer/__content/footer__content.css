@@ -1,11 +1,9 @@
-.footer__content {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
 @media screen and (max-width: 500px) {
   .footer__content {
     flex-direction: column;
+    padding-bottom: 32px;
+  }
+  .footer__content:last-child{
+    padding-bottom: 0;
   }
 }
