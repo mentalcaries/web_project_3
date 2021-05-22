@@ -1,8 +1,3 @@
-@import url(./__title/intro__title.css);
-@import url(./__subtitle/intro__subtitle.css);
-@import url(./__description/intro__description.css);
-@import url(./__list/intro__list.css);
-@import url(./__accent/intro__accent.css);
 .intro {
   color: #fff;
   max-width: 984px;
