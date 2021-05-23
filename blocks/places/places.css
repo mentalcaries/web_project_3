@@ -20,6 +20,7 @@
 
 @media screen and (max-width: 625px) {
   .places {
+    margin-bottom: 64px;
     padding: 0;
   }
 }

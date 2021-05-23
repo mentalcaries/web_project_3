@@ -20,7 +20,6 @@
   .place__title {
     grid-column: 1;
     grid-row: 1;
-    line-height: 1.1;
     max-width: 288px;
     padding: 0 16px;
   }
